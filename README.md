@@ -1,4 +1,5 @@
-# StarlightAPI Source Code (Modified)
+# StarlightAPI Discord Injector And Executer
+*Contains Execution and Injection Source Code (and compiled DLL)* <br>
 *Modified to contain a DLL usable to reference the API and use within a C# Project*
 # Version
 *Source:* **3.0.9** <br>
