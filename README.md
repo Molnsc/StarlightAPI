@@ -8,3 +8,19 @@
 **Lite-Injection *72%* DEV_TOOLS Process** <br>
 **Chromium WebApp RM Debug Flag Abuser** <br>
 # Docs
+*No related docs*
+# Required
+```
+using System;
+using System.Diagnostics;
+using System.Net.Http;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using WebSocketSharp; NUGET PACK
+using Newtonsoft.Json.Linq; // NUGET PACK
+using System.IO;
+using System.Linq;
+using System.Drawing;
+using Newtonsoft.Json; // NUGET PACK
+using System.Security.Cryptography;
+```
