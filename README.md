@@ -10,7 +10,7 @@
 # Docs
 *No related docs*
 # Required
-```
+```cs
 using System;
 using System.Diagnostics;
 using System.Net.Http;
