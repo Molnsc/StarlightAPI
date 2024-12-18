@@ -28,6 +28,7 @@ using System.Security.Cryptography;
 ```
 <br>
 **Global Variables**
+<br>
 ```cs
 private string URLinPass = null;
 private WebSocket _webSocket = null;
