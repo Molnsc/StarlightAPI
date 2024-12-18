@@ -11,7 +11,7 @@
 *No related docs*
 # Required
 *For building from Scratch or extra* <br>
-**Loaders**
+Loaders
 ```cs
 using System;
 using System.Diagnostics;
@@ -26,10 +26,9 @@ using System.Drawing;
 using Newtonsoft.Json; // NUGET PACK
 using System.Security.Cryptography;
 ```
-<br>
-**Global Variables**
+Global Variables
 
-```
+```cs
 private string URLinPass = null;
 private WebSocket _webSocket = null;
 private bool dragging = false;  // Flag to track if the form is being dragged (Optional for borderless forms) -- Not required
@@ -40,5 +39,5 @@ public string globalcid = "";
 public string globalgid = "";
 public bool attached = false;
 ```
-<br>
+
 
