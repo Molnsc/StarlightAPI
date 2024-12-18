@@ -28,8 +28,8 @@ using System.Security.Cryptography;
 ```
 <br>
 **Global Variables**
-<br>
-```cs
+
+```
 private string URLinPass = null;
 private WebSocket _webSocket = null;
 private bool dragging = false;  // Flag to track if the form is being dragged (Optional for borderless forms) -- Not required
