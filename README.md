@@ -10,6 +10,8 @@
 # Docs
 *No related docs*
 # Required
+*For building from Scratch or extra* <br>
+**Loaders**
 ```cs
 using System;
 using System.Diagnostics;
@@ -24,3 +26,18 @@ using System.Drawing;
 using Newtonsoft.Json; // NUGET PACK
 using System.Security.Cryptography;
 ```
+<br>
+**Global Variables**
+```cs
+private string URLinPass = null;
+private WebSocket _webSocket = null;
+private bool dragging = false;  // Flag to track if the form is being dragged (Optional for borderless forms) -- Not required
+private Point startPoint = new Point(0, 0); // Flag to track form start point (Optional for borderless forms) -- Not required
+public string debugURL = "";
+public string authHD = "none";
+public string globalcid = "";
+public string globalgid = "";
+public bool attached = false;
+```
+<br>
+
